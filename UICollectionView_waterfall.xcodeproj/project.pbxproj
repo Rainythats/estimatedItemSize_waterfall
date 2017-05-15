@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2846BFAA1EC60CCD00E25A16 /* WaterFallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846BFA81EC60CCD00E25A16 /* WaterFallCell.m */; };
+		2846BFAB1EC60CCD00E25A16 /* WaterFallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846BFA91EC60CCD00E25A16 /* WaterFallCell.xib */; };
+		2846BFAD1EC97B1100E25A16 /* File.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2846BFAC1EC97B1100E25A16 /* File.txt */; };
 		28C1399D1EC606DA002053B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C1399C1EC606DA002053B2 /* main.m */; };
 		28C139A01EC606DA002053B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C1399F1EC606DA002053B2 /* AppDelegate.m */; };
 		28C139A31EC606DA002053B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C139A21EC606DA002053B2 /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		28C139AB1EC606DA002053B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C139A91EC606DA002053B2 /* LaunchScreen.storyboard */; };
 		28C139B61EC606DA002053B2 /* UICollectionView_waterfallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C139B51EC606DA002053B2 /* UICollectionView_waterfallTests.m */; };
 		28C139C11EC606DA002053B2 /* UICollectionView_waterfallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C139C01EC606DA002053B2 /* UICollectionView_waterfallUITests.m */; };
+		28FB00F61EC9B4380055EA3B /* bgImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FB00F51EC9B4380055EA3B /* bgImage.png */; };
+		9742614FA94E59D89E2E6C6D /* libPods-UICollectionView_waterfall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BCD1934A9CBAECA396A33B /* libPods-UICollectionView_waterfall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2846BFA71EC60CCD00E25A16 /* WaterFallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallCell.h; sourceTree = "<group>"; };
+		2846BFA81EC60CCD00E25A16 /* WaterFallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallCell.m; sourceTree = "<group>"; };
+		2846BFA91EC60CCD00E25A16 /* WaterFallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaterFallCell.xib; sourceTree = "<group>"; };
+		2846BFAC1EC97B1100E25A16 /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		28C139981EC606DA002053B2 /* UICollectionView_waterfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView_waterfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C1399C1EC606DA002053B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28C1399E1EC606DA002053B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,10 @@
 		28C139BC1EC606DA002053B2 /* UICollectionView_waterfallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionView_waterfallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C139C01EC606DA002053B2 /* UICollectionView_waterfallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionView_waterfallUITests.m; sourceTree = "<group>"; };
 		28C139C21EC606DB002053B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FB00F51EC9B4380055EA3B /* bgImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgImage.png; sourceTree = "<group>"; };
+		78BCD1934A9CBAECA396A33B /* libPods-UICollectionView_waterfall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UICollectionView_waterfall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB972BECFBA77D8050EE99FB /* Pods-UICollectionView_waterfall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionView_waterfall.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionView_waterfall/Pods-UICollectionView_waterfall.release.xcconfig"; sourceTree = "<group>"; };
+		F97BC7774F4E50A22A360302 /* Pods-UICollectionView_waterfall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionView_waterfall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionView_waterfall/Pods-UICollectionView_waterfall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9742614FA94E59D89E2E6C6D /* libPods-UICollectionView_waterfall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE29D0344F49EB062FD3BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78BCD1934A9CBAECA396A33B /* libPods-UICollectionView_waterfall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13BC4342D32CCD8A75E77691 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F97BC7774F4E50A22A360302 /* Pods-UICollectionView_waterfall.debug.xcconfig */,
+				BB972BECFBA77D8050EE99FB /* Pods-UICollectionView_waterfall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		28C1398F1EC606DA002053B2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				28C139B41EC606DA002053B2 /* UICollectionView_waterfallTests */,
 				28C139BF1EC606DA002053B2 /* UICollectionView_waterfallUITests */,
 				28C139991EC606DA002053B2 /* Products */,
+				13BC4342D32CCD8A75E77691 /* Pods */,
+				0FE29D0344F49EB062FD3BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +138,15 @@
 				28C1399F1EC606DA002053B2 /* AppDelegate.m */,
 				28C139A11EC606DA002053B2 /* ViewController.h */,
 				28C139A21EC606DA002053B2 /* ViewController.m */,
+				2846BFA71EC60CCD00E25A16 /* WaterFallCell.h */,
+				2846BFA81EC60CCD00E25A16 /* WaterFallCell.m */,
+				2846BFA91EC60CCD00E25A16 /* WaterFallCell.xib */,
 				28C139A41EC606DA002053B2 /* Main.storyboard */,
+				28FB00F51EC9B4380055EA3B /* bgImage.png */,
 				28C139A71EC606DA002053B2 /* Assets.xcassets */,
 				28C139A91EC606DA002053B2 /* LaunchScreen.storyboard */,
 				28C139AC1EC606DA002053B2 /* Info.plist */,
+				2846BFAC1EC97B1100E25A16 /* File.txt */,
 				28C1399B1EC606DA002053B2 /* Supporting Files */,
 			);
 			path = UICollectionView_waterfall;
@@ -147,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28C139C51EC606DB002053B2 /* Build configuration list for PBXNativeTarget "UICollectionView_waterfall" */;
 			buildPhases = (
+				E97B0400539189C18970A18B /* [CP] Check Pods Manifest.lock */,
 				28C139941EC606DA002053B2 /* Sources */,
 				28C139951EC606DA002053B2 /* Frameworks */,
 				28C139961EC606DA002053B2 /* Resources */,
+				3A43CE32A8D2F27F7F937E32 /* [CP] Embed Pods Frameworks */,
+				DEBFD3F0C42728A67B65FC94 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +248,7 @@
 				TargetAttributes = {
 					28C139971EC606DA002053B2 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 56K2B4F66A;
 						ProvisioningStyle = Automatic;
 					};
 					28C139B01EC606DA002053B2 = {
@@ -246,6 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2846BFAD1EC97B1100E25A16 /* File.txt in Resources */,
+				2846BFAB1EC60CCD00E25A16 /* WaterFallCell.xib in Resources */,
+				28FB00F61EC9B4380055EA3B /* bgImage.png in Resources */,
 				28C139AB1EC606DA002053B2 /* LaunchScreen.storyboard in Resources */,
 				28C139A81EC606DA002053B2 /* Assets.xcassets in Resources */,
 				28C139A61EC606DA002053B2 /* Main.storyboard in Resources */,
@@ -268,11 +313,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A43CE32A8D2F27F7F937E32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionView_waterfall/Pods-UICollectionView_waterfall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBFD3F0C42728A67B65FC94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionView_waterfall/Pods-UICollectionView_waterfall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97B0400539189C18970A18B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28C139941EC606DA002053B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2846BFAA1EC60CCD00E25A16 /* WaterFallCell.m in Sources */,
 				28C139A31EC606DA002053B2 /* ViewController.m in Sources */,
 				28C139A01EC606DA002053B2 /* AppDelegate.m in Sources */,
 				28C1399D1EC606DA002053B2 /* main.m in Sources */,
@@ -424,9 +518,12 @@
 		};
 		28C139C61EC606DB002053B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97BC7774F4E50A22A360302 /* Pods-UICollectionView_waterfall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56K2B4F66A;
 				INFOPLIST_FILE = UICollectionView_waterfall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "icy.UICollectionView-waterfall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +532,12 @@
 		};
 		28C139C71EC606DB002053B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB972BECFBA77D8050EE99FB /* Pods-UICollectionView_waterfall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56K2B4F66A;
 				INFOPLIST_FILE = UICollectionView_waterfall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "icy.UICollectionView-waterfall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +609,7 @@
 				28C139C71EC606DB002053B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28C139C81EC606DB002053B2 /* Build configuration list for PBXNativeTarget "UICollectionView_waterfallTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +618,7 @@
 				28C139CA1EC606DB002053B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28C139CB1EC606DB002053B2 /* Build configuration list for PBXNativeTarget "UICollectionView_waterfallUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +627,7 @@
 				28C139CD1EC606DB002053B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
